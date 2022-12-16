@@ -5,11 +5,11 @@ const ampmElement = document.getElementById('ampm');
 
 function updateClock() {
 
-    let hour = new Date().getHours()
-    let minute = new Date().getMinutes()
-    let second = new Date().getSeconds()
+    let hour = new Date().getHours();
+    let minute = new Date().getMinutes();
+    let second = new Date().getSeconds();
 
-    let ampm = 'AM'
+    let ampm = 'AM';
 
     if (hour > 12) {
         hour = hour - 12;
